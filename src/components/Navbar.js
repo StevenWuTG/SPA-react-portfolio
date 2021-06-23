@@ -3,7 +3,7 @@ import './navbar.scss'
 import FaceIcon from '@material-ui/icons/Face';
 // import WorkIcon from '@material-ui/icons/Work';
 // import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
-import profile from "../images/profile-pic.jpeg"
+
 
 const Navbar = ({ menuOpen, setMenuOpen}) => {
     return (
