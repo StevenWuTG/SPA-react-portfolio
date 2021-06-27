@@ -10,6 +10,7 @@
     .form-box {
         min-height: 400px;
         max-width: 500px;
+        // min-width: 250px;
         display: flex;
         flex-direction: column;
 
@@ -19,5 +20,21 @@
         padding: 50px;
         background: #ffffff;
         border: 10px solid #f2f2f2;
+
+        .contact-form{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: 100vw;
+
+            h1, p {
+                text-align: center;
+            }
+              
+            
+        }
       }
 }

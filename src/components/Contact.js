@@ -49,6 +49,7 @@ const Contact = () => {
                     {/* <input type="hidden" name="contact_number" /> */}
                     <label>Subject:</label>
                     <input type="text" name="subject" />
+                    <br />
                     <label>Name:</label>
                     <input type="text" name="name" />
                     <label>Email:</label>
