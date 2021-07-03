@@ -9,6 +9,13 @@ const Intro = () => {
 
                 <h1>Steven Wu - Full Stack Developer</h1>
                 
+                <Typed
+                    className="typed-text"
+                    strings={["Web Design", "React UI", "RESTful Apis", "JavaScript", "Ruby on Rails"]}
+                    typeSpeed={100}
+                    backSpeed={40}
+                    loop={true}
+                />
                 <br></br>
                 
                 <p>As an avid gamer, it has always been one of my dreams to learn how to program and I fell in love after writing my first few lines of code. A day later, I've decided to turn my dreams into reality by enrolling in The Flatiron School's Immersive Software Engineering bootcamp.</p>
@@ -32,13 +39,6 @@ const Intro = () => {
                 </div>
                 {/* <br /> */}
                 
-                <Typed
-                    className="typed-text"
-                    strings={["Web Design", "React UI", "RESTful Apis", "JavaScript", "Ruby on Rails"]}
-                    typeSpeed={100}
-                    backSpeed={40}
-                    loop={true}
-                />
 
 
             </wrapper>
