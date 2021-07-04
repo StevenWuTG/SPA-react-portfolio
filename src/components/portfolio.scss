@@ -1,6 +1,5 @@
 @import '../global.scss';
 
-
 .portfolio{
 
     background-color: white;
@@ -17,21 +16,22 @@
         padding: 0;
         list-style: none;
         display: flex;
-    }
-
-    li{
-        font-size: 17px;
-        margin-right: 50px;
-        padding: 7px;
-        border-radius: 10px;
-        cursor: pointer;
-
-        &.active{
-            background-color: $mainColor ;
-            color: white;
+        li{
+            font-size: 17px;
+            margin-right: 50px;
+            padding: 7px;
+            border-radius: 10px;
+            cursor: pointer;
+    
+            &.active{
+                background-color: $mainColor ;
+                color: white;
+            }
+            
+    
         }
-
     }
+
 
     .container{
         width: 70%;

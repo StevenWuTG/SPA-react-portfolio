@@ -1,14 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './portfolio.scss'
+import Project from './Project'
 
 const Portfolio = () => {
+
+    const [selected,setSelected] = useState("active")
+
+    const projectstList = [
+        {
+            id:"gameroom",
+            title:"GameRoom"
+        },
+        {
+            id:"landmarkers",
+            title:"Landmarkers"
+        },
+        {
+            id:"jokesonus",
+            title:"JokesOnUs"
+        }
+    ]
+
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
             <ul>
-                <li className="active">GameRoom</li>
-                <li>Landmarkers</li>
-                <li>JokesOnUs</li>
+                {
+                    projectstList.map((item) => (
+                        <Project
+                            id={item.id} 
+                            title={item.title}
+                            active={selected === item.id}
+                            setSelected={setSelected}
+                        />
+                    ))
+                }
             </ul>
             <div className="container">
                 <div className="item">
