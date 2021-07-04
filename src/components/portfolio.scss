@@ -9,6 +9,7 @@
     align-items: center;
     h1{
         font-size: 50px;
+        z-index: 0;
     }
 
     ul{
@@ -27,7 +28,7 @@
                 background-color: $mainColor ;
                 color: white;
             }
-            
+
     
         }
     }
@@ -35,22 +36,28 @@
 
     .container{
         width: 70%;
+        // top: 190px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
 
         .item{
-            width: 220px;
-            height: 150px;
+            width: 100vw;
+            height: 50vh;
             border-radius: 20px;
+            padding: 20px;
             border: 1px solid grey;
             margin: 10px 20px;
             display: flex;
             align-items: center;
             justify-content: center;
-            position: relative;
+            // position: relative;
             transition: all 0.5s ease;
+            
+            p{
+                max-width: 500px;
+            }
 
             h3{
                 position: absolute;

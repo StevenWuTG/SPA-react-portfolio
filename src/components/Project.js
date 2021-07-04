@@ -1,7 +1,7 @@
 import React from 'react'
 import './project.scss'
 
-const Project = ( {active , setSelected, title, id}) => {
+const Project = ( {active , setSelected, title, id, img}) => {
 
     
 
@@ -10,10 +10,12 @@ const Project = ( {active , setSelected, title, id}) => {
             className={ active ? "project active" : "project"}
             onClick={()=> setSelected(id)}
         >
-            <h3>
-                {title}
-
-            </h3>
+            <div className="item">
+                    <img width="150px"
+                     src={img} alt="" 
+                    />
+                    <h3>{title}</h3>
+            </div>
         </li>
     )
 }
