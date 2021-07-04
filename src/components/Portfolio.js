@@ -70,7 +70,16 @@ const Portfolio = () => {
             <div className="container">
                 <div className="item">
                     
-                    <ReactPlayer className="portfolio-player" url="https://www.youtube.com/watch?v=x1XqqEM3NuE&t=33s" controls />
+                    <div className="portfolio-player">
+                        <ReactPlayer
+                            className="portfolio-player"
+                            url="https://www.youtube.com/watch?v=x1XqqEM3NuE"
+                            controls
+                            vidmeConfig="1080p"
+                            />
+
+                    </div>
+        
                     <div className="text">
                         <h1 className="title">Game Room</h1>
                         <p>Being a avid gamer, I would frequent alot of gaming review sites such as GameRanx.com or Ign.com. So for my capstone project at The Flatiron School, I thought it would be fun to try to build a gaming community website on my own and I ended up having a blast and learning a ton as well. I used React with Redux for the frontend and I created a custom backend API server using Ruby on Rails  </p>
@@ -80,7 +89,7 @@ const Portfolio = () => {
             
                 <div className="item">
                     
-                    <ReactPlayer className="portfolio-player" url="https://www.youtube.com/watch?v=81gCyDGc3vg&t=37s" controls />
+                    <ReactPlayer className="player" url="https://www.youtube.com/watch?v=81gCyDGc3vg" controls />
                     <div className="text">
                         <h1>Landmarkers</h1>
                         
@@ -90,7 +99,7 @@ const Portfolio = () => {
                 </div>
                 <div className="item">
                     
-                    <ReactPlayer className="portfolio-player" url="https://www.youtube.com/watch?v=d-inxohHvKk&t=4s" controls />
+                    <ReactPlayer className="portfolio-player" url="https://www.youtube.com/watch?v=d-inxohHvKk" controls />
                     <div className="text">
                         
                         <h1>JokesOnUs</h1>

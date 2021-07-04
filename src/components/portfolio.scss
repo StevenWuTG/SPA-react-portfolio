@@ -2,6 +2,10 @@
 
 .portfolio{
 
+    // &::-webkit-scrollbar{
+    //     display: none;
+    // }
+
     background-color: white;
     color: black;
     display: flex;
@@ -9,32 +13,37 @@
     align-items: center;
     h1{
         font-size: 50px;
-        z-index: 0;
+        // z-index: 0;
     }
 
-    ul{
-        margin: 10px;
-        padding: 0;
-        list-style: none;
-        display: flex;
-        li{
-            font-size: 17px;
-            margin-right: 50px;
-            padding: 7px;
-            border-radius: 10px;
-            cursor: pointer;
+    // ul{
+    //     margin: 10px;
+    //     padding: 0;
+    //     list-style: none;
+    //     display: flex;
+    //     li{
+    //         font-size: 17px;
+    //         margin-right: 50px;
+    //         padding: 7px;
+    //         border-radius: 10px;
+    //         cursor: pointer;
     
-            &.active{
-                background-color: $mainColor ;
-                color: white;
-            }
+    //         &.active{
+    //             background-color: $mainColor ;
+    //             color: white;
+    //         }
 
     
-        }
-    }
+    //     }
+    // }
 
 
     .container{
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
         width: 70%;
         // top: 190px;
         display: flex;
@@ -47,37 +56,43 @@
             height: 50vh;
             border-radius: 20px;
             padding: 20px;
-            border: 1px solid grey;
-            margin: 10px 20px;
+            border: 1px solid rgb(224, 224, 224);
+            margin: 5px 5px;
             display: flex;
             align-items: center;
             justify-content: center;
             // position: relative;
-            transition: all 0.5s ease;
+            transition: all 1s ease;
             
             p{
                 max-width: 500px;
+                font-size: 16px;
             }
 
-            h3{
-                position: absolute;
-                font-size: 20px;
+            h1{
+                // position: absolute;
+                font-size: 80px;
     
             }
     
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                z-index: 1;
-            }
+            // img{
+            //     width: 100%;
+            //     height: 100%;
+            //     object-fit: cover;
+            //     z-index: 1;
+            // }
+
+
+
+            
     
             &:hover{
                 background-color: $mainColor;
-                img{
-                    opacity: 0.2;
-                    z-index: 0;
-                }
+                color: white;
+                // img{
+                //     opacity: 0.2;
+                //     z-index: 0;
+                // }
     
             }
         }
