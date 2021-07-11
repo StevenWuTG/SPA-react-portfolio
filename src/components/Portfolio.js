@@ -76,7 +76,7 @@ const Portfolio = () => {
                             url="https://www.youtube.com/watch?v=x1XqqEM3NuE"
                             controls
                             vidmeConfig="1080p"
-                            />
+                        />
 
                     </div>
         
@@ -89,7 +89,12 @@ const Portfolio = () => {
             
                 <div className="item">
                     
-                    <ReactPlayer className="portfolio-player" url="https://www.youtube.com/watch?v=81gCyDGc3vg" controls />
+                    <ReactPlayer
+                        className="portfolio-player"
+                        url="https://www.youtube.com/watch?v=81gCyDGc3vg" 
+                        controls
+                        vidmeConfig="1080p"
+                    />
                     <div className="text">
                         <h1>Landmarkers</h1>
                         
@@ -99,7 +104,12 @@ const Portfolio = () => {
                 </div>
                 <div className="item">
                     
-                    <ReactPlayer className="portfolio-player" url="https://www.youtube.com/watch?v=d-inxohHvKk" controls />
+                    <ReactPlayer
+                    className="portfolio-player"
+                    url="https://www.youtube.com/watch?v=d-inxohHvKk"
+                    controls
+                    vidmeConfig="1080p"
+                    />
                     <div className="text">
                         
                         <h1>JokesOnUs</h1>
