@@ -16,15 +16,15 @@ const Intro = () => {
                     backSpeed={40}
                     loop={true}
                 />
-                <br></br>
+                {/* <br></br> */}
                 
                 <p>As an avid gamer, it has always been one of my dreams to learn how to program and I fell in love after writing my first few lines of code. A day later, I've decided to turn my dreams into reality by enrolling in The Flatiron School's Immersive Software Engineering bootcamp.</p>
                 {/* <br /> */}
                 <p>Along with my coding knowledge, I have over twelve years of experience in the restaurant industry with the last six years as a manager for a busy ramen restaurant in midtown Manhattan where I handled duties such as employee scheduling, inventory management and the daily front house operation.</p>
                 <br />
-                <br />
+    
                 <h1>Languages:</h1>
-                <br />
+                {/* <br /> */}
                 <div className="intro-icons">
                     <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="html" align="left" width="40" height="40"/>
 

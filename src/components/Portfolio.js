@@ -89,7 +89,7 @@ const Portfolio = () => {
             
                 <div className="item">
                     
-                    <ReactPlayer className="player" url="https://www.youtube.com/watch?v=81gCyDGc3vg" controls />
+                    <ReactPlayer className="portfolio-player" url="https://www.youtube.com/watch?v=81gCyDGc3vg" controls />
                     <div className="text">
                         <h1>Landmarkers</h1>
                         
