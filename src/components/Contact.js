@@ -55,7 +55,8 @@ const Contact = () => {
                     <label>Email:</label>
                     <input type="email" name="email" />
                     <label>Message:</label>
-                    <textarea name="message" />
+                    <input className="message-text" name="message" />
+                    <br />
                     <input className="btn btn-primary"  type="submit" value="Send" />
                 </form>
             </div>
