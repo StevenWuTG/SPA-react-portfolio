@@ -49,9 +49,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: row;
         flex-wrap: wrap;
-
+        
         .item{
+            flex-direction: row;
+            flex-wrap: wrap;
             width: 100vw;
             height: 50vh;
             border-radius: 20px;
@@ -71,7 +74,7 @@
 
             h1{
                 // position: absolute;
-                font-size: 80px;
+                font-size: 50px;
     
             }
     
